@@ -1,0 +1,425 @@
+body {
+    font-family: 'PT Serif Caption', serif;
+    font-style: italic;
+    line-height: 35px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #c0c0c0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.img {
+    max-width: 350px;
+    height: 250px;
+}
+
+.img__icon {
+    width: 100%;
+    height: 100%;
+}
+
+.contract-price {
+    color: forestgreen;
+    font-weight: 700;
+}
+
+.section {
+    background: linear-gradient(to bottom right,#c0c0c0,#c0c0c0);
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.section__logo {
+    padding: 0 50px;
+    max-width: 1810px;
+    margin: 0 auto;
+}
+
+.section__logo-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo__img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -1px;
+   /* margin-right: 80px;*/
+    position: relative;
+}
+
+.logo__img-2 {
+
+    /*position: absolute;
+    bottom: 0;
+    right: -35%;*/
+    max-width: 100%;
+    height: auto;
+}
+.infographicslogo {
+    text-align: left;
+    /*margin-left:50px;*/
+}
+.info_img_icon {
+    transition: 1s;
+}
+.info_img_icon:hover {
+    transform: scale(1.2);
+}
+.infografics1 {
+    float:left;
+    margin-top: 5px;
+    margin-right:50px;
+    margin-bottom: 125px;
+    max-width: 25%;
+    max-height: 200px;
+    size: 16px;
+    text-align:center;
+
+}
+.logo__img-2__icon {
+    width: 100%;
+    height: 100%;
+}
+
+.logo__img-icon {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.section__logo-title {
+    font-size: calc(1rem + 4vw);
+    color: #fff;
+    letter-spacing: 20px;
+    line-height: 130px;
+    white-space: nowrap;
+}
+
+.section__logo-title__span-1 {
+    color: #2f8d2f;
+}
+
+.section__logo-title__span-2 {
+    color: #cc080c;
+}
+
+.section__logo-title__span-3 {
+    text-transform: lowercase;
+}
+
+.section__logo-underline {
+    background
+    padding: 10px 0 10px 40px;
+    font-size: 24px;
+}
+
+.header {
+    background-color: #000;
+    padding: 5px 0;
+    position: fixed;
+    top: 3;
+    left: 3;
+    z-index: 1000;
+    width: 100%;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.menu__list-item {
+    margin-right: 40px;
+    transition: all .2s;
+}
+P.logo{
+    text-align: center;
+
+}
+
+.menu__list-item:hover {
+    transform: scale(1.1);
+}
+
+.menu__list-link {
+    color: #fff;
+}
+
+.requirement {
+    padding: 50px 0;
+}
+
+.requirement__title {
+    margin-bottom: 20px;
+}
+
+.requirement__text {
+    margin-bottom: 30px;
+}
+
+.requirement__text-item {
+    margin-bottom: 7px;
+}
+
+.requirement__items-row {
+    height: 150px;
+}
+
+.requirement__item {
+    text-align: center;
+    transition: all .2s;
+}
+
+.requirement__item:hover {
+    transform: scale(1.1);
+}
+
+.requirement__item-link {
+    color: #fff;
+
+    height:140px;
+    width:150px;
+    margin-top:30px;
+    margin-right: 45px;
+    margin-bottom: 110px;
+    float: left;
+}
+
+.requirement__item-img {
+  /*  margin: 0 auto 10px auto;*/
+    width: 170px;
+    height:120px;
+}
+.swinging-gate__title {
+    margin-bottom: 20px;
+}
+
+.swinging-gate__text {
+    margin: 30px 0;
+}
+
+.swinging-gate__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.swinging-gate__item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.sliding-gate__text {
+    margin: 30px 0;
+}
+
+.sliding-gate__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sliding-gate__item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.rail-construction__title {
+    margin-bottom: 20px;
+}
+
+.rail-construction__text {
+    margin: 30px 0;
+}
+
+.rail-construction__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rail-construction__item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.console-construction__title {
+    margin-bottom: 20px;
+}
+
+.console-construction__text {
+    margin: 30px 0;
+}
+
+.console-construction__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.console-construction__item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.garage-gate__title {
+    margin-bottom: 20px;
+}
+
+.garage-gate__text {
+    margin: 30px 0;
+}
+
+.garage-gate__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.garage-gate__item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.garage-gate__descr {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.garage-gate__descr-text {
+    max-width: 400px;
+    margin-left: 30px;
+}
+
+.coil-gate__title {
+    margin-bottom: 20px;
+}
+
+.coil-gate__text {
+    margin: 30px 0;
+}
+
+.coil-gate__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.coil-gate__item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.coil-gate__descr {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.coil-gate__descr-text {
+    max-width: 400px;
+    margin-left: 30px;
+}
+
+.contacts__title {
+    margin-bottom: 20px;
+    color: #a1443f;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.contacts__telegram-link, .contacts__email-link, .contacts__tel-link {
+    color: #fff;
+    transition: all .2s;
+}
+
+.contacts__telegram-link:hover, .contacts__email-link:hover, .contacts__tel-link:hover {
+    transform: translateX(30px) scale(1.1);
+}
+
+.contacts__telegram-link, .contacts__email-link, .contacts__tel-link{
+    margin-bottom: 10px;
+}
+
+.contacts__tel {
+    margin-bottom: 40px;
+}
+
+.contacts__img {
+    max-width: 400px;
+    height: auto;
+}
+
+.contacts__img-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.our_photo {
+    width: 800px;
+    height: 600px;
+    margin-left: 200px;
+    margin-bottom:25px;
+}
+.our_image {
+    width: 800px;
+    height: 600px;
+}
+
+.about__text {
+    margin-bottom: 30px;
+}
+
+.video {
+    
+    max-width: 1000px;
+    height: 450px;
+}
+
+.video iframe {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.contacts_all {
+    margin: 5px auto; 
+}
+.map {
+    
+    text-align: right;
+}
+.grass_bottom {
+    width: 100%;
+    height: 25px;
+}
+.grass_bottom_photo {
+  width: 100%;height: 25px;
+}
+
+
+
+
+
+
